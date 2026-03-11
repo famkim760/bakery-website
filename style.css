@@ -1,0 +1,180 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+    background-image: url(bakery.jpg);
+    color: white;
+    background-size: cover;
+    height: 100vh;
+}
+
+.bakery{
+    float: left;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+
+.bakery img{
+    width: 200px;
+}
+
+.menu{
+    float: left;
+    margin-left: 400px;
+}
+
+.list{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.list li{
+    list-style-type: none;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.list li a{
+     text-decoration: none;
+     color: white;
+     padding: 5px;
+}
+
+.list li a:hover{
+    background-color: white;
+    color: black;
+}
+
+.family{
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.family-bakery{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+}
+
+button{
+    width: 120px;
+    padding: 15px;
+    border-radius: 3px;
+    font-size: 15px;
+    border: none;
+    background-color: rgb(161, 131, 82);
+    color: white;
+}
+
+.btn2{
+    background: none;
+    border: 1px solid white;
+    color: white;
+}
+
+.parent{
+    margin-top: 20px;
+}
+
+.child{
+    float: left;
+    margin: 20px;
+}
+
+p{
+    line-height: 30px;
+}
+
+.child img{
+    width: 500px;
+    height: 500px;
+}
+
+.location{
+    margin-top: 100px;
+}
+
+.site{
+    float: right;
+    margin: 20px;
+    text-align: right;
+}
+
+.site img{
+    width: 500px;
+    height: 400px;
+}
+
+.baking{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.child1{
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    padding: 3px;
+}
+
+.child1 img {
+    width: 100%;
+}
+
+.parent1 {
+    text-align: center;
+}
+
+.clear-fix{
+    clear: both;
+}
+
+.contact{
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+.info{
+    float: left;
+    padding: 100px 10px 100px 80px;
+}
+
+.footer{
+    background-color: rgb(56,56,56);
+    height: 100vh;
+    color: white;
+    
+}
+
+.footer p, ul li{ 
+    color: lightslategray;
+}
+
+.our-info{
+    margin-left: 100px;
+}
+.about{
+    float: left;
+    margin: 10px;
+}
+
+.about-header{
+    margin-left: 40px;
+}
+.footer-logo{
+     text-align: center;
+     background-color: rgb(48,48,48);
+     height: 50vh;
+}
+
+.bakery2{
+    font-size: 80px;
+    margin-bottom: -10px;
+}
